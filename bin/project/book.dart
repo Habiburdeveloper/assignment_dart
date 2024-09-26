@@ -36,8 +36,8 @@ class Book{
   }
 
  getBookAge(){
-    var date = new DateTime.now();
-    var  currentYear = DateTime(date.year - publicationYear);
+    DateTime date = DateTime.now();
+    DateTime  currentYear = DateTime(date.year - publicationYear);
     return currentYear;
  }
 
